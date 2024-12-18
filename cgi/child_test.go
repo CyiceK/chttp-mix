@@ -9,8 +9,8 @@ package cgi
 import (
 	"bufio"
 	"bytes"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/httptest"
+	"github.com/CyiceK/chttp-mix"
+	"github.com/CyiceK/chttp-mix/httptest"
 	"strings"
 	"testing"
 )

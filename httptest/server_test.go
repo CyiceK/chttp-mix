@@ -6,7 +6,7 @@ package httptest
 
 import (
 	"bufio"
-	"github.com/wangluozhe/chttp"
+	"github.com/CyiceK/chttp-mix"
 	"io"
 	"net"
 	"sync"

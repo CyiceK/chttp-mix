@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/http2"
+	"github.com/CyiceK/chttp-mix"
+	"github.com/CyiceK/chttp-mix/http2"
 	"io"
 )
 

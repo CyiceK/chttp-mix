@@ -14,9 +14,9 @@ import (
 	"flag"
 	"fmt"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/httptest"
-	"github.com/wangluozhe/chttp/httptrace"
+	"github.com/CyiceK/chttp-mix"
+	"github.com/CyiceK/chttp-mix/httptest"
+	"github.com/CyiceK/chttp-mix/httptrace"
 	"io"
 	"io/fs"
 	"io/ioutil"
@@ -36,7 +36,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wangluozhe/chttp/http2/hpack"
+	"github.com/CyiceK/chttp-mix/http2/hpack"
 )
 
 var (

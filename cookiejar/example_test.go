@@ -6,9 +6,9 @@ package cookiejar_test
 
 import (
 	"fmt"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/cookiejar"
-	"github.com/wangluozhe/chttp/httptest"
+	"github.com/CyiceK/chttp-mix"
+	"github.com/CyiceK/chttp-mix/cookiejar"
+	"github.com/CyiceK/chttp-mix/httptest"
 	"log"
 	"net/url"
 )

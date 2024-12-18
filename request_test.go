@@ -12,7 +12,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	. "github.com/wangluozhe/chttp"
+	. "github.com/CyiceK/chttp-mix"
 	"io"
 	"math"
 	"mime/multipart"

@@ -6,7 +6,7 @@ package httptest
 
 import (
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
+	"github.com/CyiceK/chttp-mix"
 	"io"
 	"net/url"
 	"reflect"

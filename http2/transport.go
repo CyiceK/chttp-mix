@@ -15,8 +15,8 @@ import (
 	"errors"
 	"fmt"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/httptrace"
+	"github.com/CyiceK/chttp-mix"
+	"github.com/CyiceK/chttp-mix/httptrace"
 	"io"
 	"io/fs"
 	"log"
@@ -32,7 +32,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wangluozhe/chttp/http2/hpack"
+	"github.com/CyiceK/chttp-mix/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"
 )

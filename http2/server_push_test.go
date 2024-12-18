@@ -7,7 +7,7 @@ package http2
 import (
 	"errors"
 	"fmt"
-	"github.com/wangluozhe/chttp"
+	"github.com/CyiceK/chttp-mix"
 	"io"
 	"io/ioutil"
 	"reflect"

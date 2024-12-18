@@ -15,7 +15,7 @@ import (
 	"errors"
 	"fmt"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp/internal/ascii"
+	"github.com/CyiceK/chttp-mix/internal/ascii"
 	"io"
 	"log"
 	"net/url"

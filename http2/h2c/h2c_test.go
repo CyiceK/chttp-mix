@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/httptest"
+	"github.com/CyiceK/chttp-mix"
+	"github.com/CyiceK/chttp-mix/httptest"
 	"io"
 	"io/ioutil"
 	"log"
@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/wangluozhe/chttp/http2"
+	"github.com/CyiceK/chttp-mix/http2"
 )
 
 func ExampleNewHandler() {

@@ -7,7 +7,7 @@ package httptest
 import (
 	"bytes"
 	"fmt"
-	"github.com/wangluozhe/chttp"
+	"github.com/CyiceK/chttp-mix"
 	"io"
 	"net/textproto"
 	"strconv"

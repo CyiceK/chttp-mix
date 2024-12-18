@@ -8,8 +8,8 @@ package cookiejar
 import (
 	"errors"
 	"fmt"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/internal/ascii"
+	"github.com/CyiceK/chttp-mix"
+	"github.com/CyiceK/chttp-mix/internal/ascii"
 	"net"
 	"net/url"
 	"sort"

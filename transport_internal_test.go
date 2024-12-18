@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"errors"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp/internal/testcert"
+	"github.com/CyiceK/chttp-mix/internal/testcert"
 	"io"
 	"net"
 	"strings"

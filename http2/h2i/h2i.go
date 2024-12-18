@@ -28,7 +28,7 @@ import (
 	"flag"
 	"fmt"
 	tls "github.com/refraction-networking/utls"
-	"github.com/wangluozhe/chttp"
+	"github.com/CyiceK/chttp-mix"
 	"io"
 	"log"
 	"net"
@@ -37,8 +37,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wangluozhe/chttp/http2"
-	"github.com/wangluozhe/chttp/http2/hpack"
+	"github.com/CyiceK/chttp-mix/http2"
+	"github.com/CyiceK/chttp-mix/http2/hpack"
 	"golang.org/x/term"
 )
 

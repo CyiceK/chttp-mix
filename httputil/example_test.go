@@ -6,9 +6,9 @@ package httputil_test
 
 import (
 	"fmt"
-	"github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/chttp/httptest"
-	"github.com/wangluozhe/chttp/httputil"
+	"github.com/CyiceK/chttp-mix"
+	"github.com/CyiceK/chttp-mix/httptest"
+	"github.com/CyiceK/chttp-mix/httputil"
 	"io"
 	"log"
 	"net/url"

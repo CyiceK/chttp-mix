@@ -3,7 +3,7 @@ package http_test
 import (
 	"errors"
 	"fmt"
-	. "github.com/wangluozhe/chttp"
+	. "github.com/CyiceK/chttp-mix"
 	"io"
 	"os"
 	"sync"

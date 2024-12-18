@@ -7,7 +7,7 @@ package http
 import (
 	"errors"
 	"fmt"
-	"github.com/wangluozhe/chttp/internal/ascii"
+	"github.com/CyiceK/chttp-mix/internal/ascii"
 	"log"
 	"net"
 	"net/textproto"
