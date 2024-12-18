@@ -1,4 +1,4 @@
-module github.com/wangluozhe/chttp
+module github.com/CyiceK/chttp-mix
 
 go 1.20
 
