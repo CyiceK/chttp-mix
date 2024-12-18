@@ -8,7 +8,7 @@ package cookiejar
 
 import (
 	"fmt"
-	"net/http/internal/ascii"
+	"github.com/CyiceK/chttp-mix/internal/ascii"
 	"strings"
 	"unicode/utf8"
 )

@@ -2637,16 +2637,16 @@ type writeRequest struct {
 
 // httpTimeoutError represents a timeout.
 // It implements net.Error and wraps context.DeadlineExceeded.
-type timeoutError struct {
+type TimeoutError struct {
 	err string
 }
 
-func (e *timeoutError) Error() string     { return e.err }
-func (e *timeoutError) Timeout() bool     { return true }
-func (e *timeoutError) Temporary() bool   { return true }
-func (e *timeoutError) Is(err error) bool { return err == context.DeadlineExceeded }
+func (e *TimeoutError) Error() string     { return e.err }
+func (e *TimeoutError) Timeout() bool     { return true }
+func (e *TimeoutError) Temporary() bool   { return true }
+func (e *TimeoutError) Is(err error) bool { return err == context.DeadlineExceeded }
 
-var errTimeout error = &timeoutError{"net/http: timeout awaiting response headers"}
+var errTimeout error = &TimeoutError{"net/http: timeout awaiting response headers"}
 
 // errRequestCanceled is set to be identical to the one from h2 to facilitate
 // testing.

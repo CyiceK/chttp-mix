@@ -8,8 +8,8 @@ package httptrace
 
 import (
 	"context"
-	tls "github.com/refraction-networking/utls"
 	"github.com/CyiceK/chttp-mix/internal/nettrace"
+	tls "github.com/refraction-networking/utls"
 	"net"
 	"net/textproto"
 	"reflect"

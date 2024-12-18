@@ -8,8 +8,8 @@ package httptest
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/refraction-networking/utls"
 	"github.com/CyiceK/chttp-mix"
+	tls "github.com/refraction-networking/utls"
 	"io"
 	"strings"
 )

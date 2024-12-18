@@ -7,9 +7,9 @@ package h2c
 import (
 	"context"
 	"fmt"
-	tls "github.com/refraction-networking/utls"
 	"github.com/CyiceK/chttp-mix"
 	"github.com/CyiceK/chttp-mix/httptest"
+	tls "github.com/refraction-networking/utls"
 	"io"
 	"io/ioutil"
 	"log"
