@@ -14,8 +14,8 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	tls "github.com/refraction-networking/utls"
 	"github.com/CyiceK/chttp-mix/internal/ascii"
+	tls "github.com/refraction-networking/utls"
 	"io"
 	"log"
 	"net/url"
@@ -603,6 +603,7 @@ func (c *Client) do(req *Request) (retres *Response, reterr error) {
 			Err: errors.New("http: nil Request.URL"),
 		}
 	}
+	_ = *c // panic early if c is nil; see go.dev/issue/53521
 
 	var (
 		deadline      = c.deadline()
@@ -1013,6 +1014,12 @@ func shouldCopyHeaderOnRedirect(headerKey string, initial, dest *url.URL) bool {
 func isDomainOrSubdomain(sub, parent string) bool {
 	if sub == parent {
 		return true
+	}
+	// If sub contains a :, it's probably an IPv6 address (and is definitely not a hostname).
+	// Don't check the suffix in this case, to avoid matching the contents of a IPv6 zone.
+	// For example, "::1%.www.example.com" is not a subdomain of "www.example.com".
+	if strings.ContainsAny(sub, ":%") {
+		return false
 	}
 	// If sub is "foo.example.com" and parent is "example.com",
 	// that means sub must end in "."+parent.

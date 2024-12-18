@@ -6,7 +6,9 @@ package http
 
 import (
 	"bytes"
-	"internal/race"
+	"github.com/CyiceK/chttp-mix/internal/race"
+
+	//"internal/race"
 	"reflect"
 	"runtime"
 	"strings"

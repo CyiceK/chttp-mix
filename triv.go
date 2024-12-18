@@ -13,6 +13,7 @@ import (
 	"github.com/CyiceK/chttp-mix"
 	"io"
 	"log"
+	"net/http"
 	"os"
 	"os/exec"
 	"strconv"
@@ -34,7 +35,7 @@ type Counter struct {
 	n  int
 }
 
-// This makes Counter satisfy the expvar.Var interface, so we can export
+// This makes Counter satisfy the [expvar.Var] interface, so we can export
 // it directly.
 func (ctr *Counter) String() string {
 	ctr.mu.Lock()

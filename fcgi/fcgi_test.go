@@ -7,8 +7,8 @@ package fcgi
 import (
 	"bytes"
 	"errors"
-	"github.com/CyiceK/chttp-mix"
 	"io"
+	"net/http"
 	"strings"
 	"testing"
 	"time"

@@ -6,11 +6,11 @@ package httputil_test
 
 import (
 	"fmt"
-	"github.com/CyiceK/chttp-mix"
-	"github.com/CyiceK/chttp-mix/httptest"
-	"github.com/CyiceK/chttp-mix/httputil"
 	"io"
 	"log"
+	"net/http"
+	"net/http/httptest"
+	"net/http/httputil"
 	"net/url"
 	"strings"
 )
