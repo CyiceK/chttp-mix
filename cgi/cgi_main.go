@@ -6,8 +6,8 @@ package cgi
 
 import (
 	"fmt"
+	http "github.com/CyiceK/chttp-mix"
 	"io"
-	"net/http"
 	"os"
 	"path"
 	"slices"

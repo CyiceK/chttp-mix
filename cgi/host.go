@@ -17,10 +17,11 @@ package cgi
 import (
 	"bufio"
 	"fmt"
+	http "github.com/CyiceK/chttp-mix"
+	"golang.org/x/net/http/httpguts"
 	"io"
 	"log"
 	"net"
-	"net/http"
 	"net/textproto"
 	"os"
 	"os/exec"
@@ -29,8 +30,6 @@ import (
 	"runtime"
 	"strconv"
 	"strings"
-
-	"golang.org/x/net/http/httpguts"
 )
 
 var trailingPort = regexp.MustCompile(`:([0-9]+)$`)

@@ -9,12 +9,12 @@ package cgi
 
 import (
 	"bufio"
-	"crypto/tls"
 	"errors"
 	"fmt"
+	http "github.com/CyiceK/chttp-mix"
+	tls "github.com/refraction-networking/utls"
 	"io"
 	"net"
-	"net/http"
 	"net/url"
 	"os"
 	"strconv"

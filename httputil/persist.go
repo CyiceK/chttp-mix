@@ -7,9 +7,9 @@ package httputil
 import (
 	"bufio"
 	"errors"
+	http "github.com/CyiceK/chttp-mix"
 	"io"
 	"net"
-	"net/http"
 	"net/textproto"
 	"sync"
 )
