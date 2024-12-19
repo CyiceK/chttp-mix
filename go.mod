@@ -1,12 +1,10 @@
 module github.com/CyiceK/chttp-mix
 
-go 1.22.0
-
-toolchain go1.23.2
+go 1.23.0
 
 require (
 	github.com/refraction-networking/utls v1.6.7
-	golang.org/x/net v0.32.0
+	golang.org/x/net v0.33.0
 	golang.org/x/term v0.27.0
 )
 
